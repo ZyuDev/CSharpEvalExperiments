@@ -10,6 +10,29 @@ namespace EvalExperiments.Common
         private Dictionary<string, object> _properties = new Dictionary<string, object>();
         private Dictionary<string, DataTable> _tables = new Dictionary<string, DataTable>();
 
+        public object this[string key]
+        {
+            get { return GetValue(key); }
+        }
+
+        public object GetValue(string name)
+        {
+            object result = null;
+
+            if (_properties.ContainsKey(name))
+            {
+                result = _properties[name];
+
+                if (result is decimal)
+                {
+                    return (decimal)result;
+                }
+            }
+
+            return result;
+        }
+
+
         public object GetPropertyValue(string name)
         {
             object result = null;
@@ -17,6 +40,11 @@ namespace EvalExperiments.Common
             if (_properties.ContainsKey(name))
             {
                 result = _properties[name];
+
+                if (result is decimal)
+                {
+                    return (decimal)result;
+                }
             }
 
             return result;

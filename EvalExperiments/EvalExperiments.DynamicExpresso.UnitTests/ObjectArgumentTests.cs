@@ -53,5 +53,48 @@ namespace EvalExperiments.DynamicExpresso.UnitTests
             Assert.AreEqual(50, result);
 
         }
+
+        [Test]
+        public void CalcWithGetProperty()
+        {
+            var headerModel = new CalculatableObject();
+            headerModel.SetPropertyValue("rate", 0.05M);
+            headerModel.SetPropertyValue("amount", 1000M);
+            headerModel.SetPropertyValue("tax", 0M);
+
+            var expression = "headerModel[\"rate\"] + headerModel[\"amount\"]";
+
+            var interpreter = new Interpreter(InterpreterOptions.DefaultCaseInsensitive)
+                .SetVariable("headerModel", headerModel);
+
+            var result = interpreter.Eval(expression);
+
+            Assert.AreEqual(50, result);
+
+        }
+
+        [Test]
+        public void CalcIndependentVarExpression()
+        {
+            var headerModel = new CalculatableObject();
+            headerModel.SetPropertyValue("rate", 0.05M);
+            headerModel.SetPropertyValue("amount", 1000M);
+            headerModel.SetPropertyValue("tax", 0M);
+
+            var rate = headerModel.GetPropertyValue("rate");
+            var amount = headerModel.GetPropertyValue("amount");
+
+            var expression = "rate * amount";
+
+            var interpreter = new Interpreter(InterpreterOptions.DefaultCaseInsensitive)
+                .SetVariable("rate", rate).SetVariable("amount", amount);
+
+            var result = interpreter.Eval(expression);
+
+
+            Assert.AreEqual(50, result);
+
+        }
+
     }
 }

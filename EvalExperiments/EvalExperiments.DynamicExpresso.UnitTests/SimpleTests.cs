@@ -51,5 +51,23 @@ namespace EvalExperiments.DynamicExpresso.UnitTests
             Assert.AreEqual(3.1, result);
 
         }
+
+        [Test]
+        public void AddObjectType_ReturnResult()
+        {
+            object a = 1;
+            object b = 2.1M;
+            var expression = @"a + b";
+
+            var interpreter = new Interpreter();
+            interpreter.SetVariable("a", a);
+            interpreter.SetVariable("b", b);
+            var result = interpreter.Eval(expression);
+
+            Console.WriteLine($"result: {result}, type: {result.GetType()}");
+            Assert.AreEqual(3.1, result);
+
+        }
+
     }
 }
