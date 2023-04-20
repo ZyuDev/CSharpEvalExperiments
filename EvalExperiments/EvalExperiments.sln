@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Common", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.DynamicExpresso.UnitTests", "EvalExperiments.DynamicExpresso.UnitTests\EvalExperiments.DynamicExpresso.UnitTests.csproj", "{008DEE29-2585-4228-9FF0-8A6F6B27BF2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.CSharpScript", "EvalExperiments.CSharpScript\EvalExperiments.CSharpScript.csproj", "{C9275BE9-199C-4AC8-B3CD-7C9673A1DB0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.CSharpScript.UnitTests", "EvalExperiments.CSharpScript.UnitTests\EvalExperiments.CSharpScript.UnitTests.csproj", "{7F989D32-6ABB-4B20-9192-2A629875B58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Roslyn", "EvalExperiments.Roslyn\EvalExperiments.Roslyn.csproj", "{D9C406EF-5028-4DA1-938D-AD979B4EA049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Roslyn.UnitTests", "EvalExperiments.Roslyn.UnitTests\EvalExperiments.Roslyn.UnitTests.csproj", "{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,22 @@ Global
 		{008DEE29-2585-4228-9FF0-8A6F6B27BF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{008DEE29-2585-4228-9FF0-8A6F6B27BF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{008DEE29-2585-4228-9FF0-8A6F6B27BF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9275BE9-199C-4AC8-B3CD-7C9673A1DB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9275BE9-199C-4AC8-B3CD-7C9673A1DB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9275BE9-199C-4AC8-B3CD-7C9673A1DB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9275BE9-199C-4AC8-B3CD-7C9673A1DB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F989D32-6ABB-4B20-9192-2A629875B58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F989D32-6ABB-4B20-9192-2A629875B58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F989D32-6ABB-4B20-9192-2A629875B58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F989D32-6ABB-4B20-9192-2A629875B58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C406EF-5028-4DA1-938D-AD979B4EA049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C406EF-5028-4DA1-938D-AD979B4EA049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C406EF-5028-4DA1-938D-AD979B4EA049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C406EF-5028-4DA1-938D-AD979B4EA049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
