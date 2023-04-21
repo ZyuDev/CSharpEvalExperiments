@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Roslyn", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Roslyn.UnitTests", "EvalExperiments.Roslyn.UnitTests\EvalExperiments.Roslyn.UnitTests.csproj", "{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Jint", "EvalExperiments.Jint\EvalExperiments.Jint.csproj", "{365F07D6-D533-4569-9550-2D226184D430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Jint.UnitTests", "EvalExperiments.Jint.UnitTests\EvalExperiments.Jint.UnitTests.csproj", "{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D9C0BC4-DC96-4222-B816-2E7FFCFA84F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365F07D6-D533-4569-9550-2D226184D430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365F07D6-D533-4569-9550-2D226184D430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365F07D6-D533-4569-9550-2D226184D430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365F07D6-D533-4569-9550-2D226184D430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
