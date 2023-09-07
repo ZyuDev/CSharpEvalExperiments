@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Jint", "Eva
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.Jint.UnitTests", "EvalExperiments.Jint.UnitTests\EvalExperiments.Jint.UnitTests.csproj", "{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.PythonNet", "EvalExperiments.PythonNet\EvalExperiments.PythonNet.csproj", "{BBF6940E-412C-4375-8E4E-941AAE610D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC87333-7141-4341-BC4D-4CDAA7FC11BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF6940E-412C-4375-8E4E-941AAE610D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF6940E-412C-4375-8E4E-941AAE610D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF6940E-412C-4375-8E4E-941AAE610D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF6940E-412C-4375-8E4E-941AAE610D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
