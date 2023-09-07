@@ -17,7 +17,7 @@ public class PythonNetEval
         return dataTable;
     }
 
-    public void Foo()
+    public void Example()
     {
         // path to python3*.dll
         // Runtime.PythonDLL = "C:\\Users\\Oceanshiver\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll";
