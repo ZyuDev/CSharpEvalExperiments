@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.IronPython"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.IronPython.UnitTests", "EvalExperiments.IronPython.UnitTests\EvalExperiments.IronPython.UnitTests.csproj", "{DA84920B-BD2B-4A64-8BCE-C805E86164B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.ClearScript", "EvalExperiments.ClearScript\EvalExperiments.ClearScript.csproj", "{898842F2-CB37-4965-896E-699B80D6BCCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalExperiments.ClearScript.Tests", "EvalExperiments.ClearScript.Tests\EvalExperiments.ClearScript.Tests.csproj", "{FEC420BD-5E43-4AD0-829E-8BEB7BB1F3D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{DA84920B-BD2B-4A64-8BCE-C805E86164B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA84920B-BD2B-4A64-8BCE-C805E86164B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA84920B-BD2B-4A64-8BCE-C805E86164B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898842F2-CB37-4965-896E-699B80D6BCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898842F2-CB37-4965-896E-699B80D6BCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898842F2-CB37-4965-896E-699B80D6BCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898842F2-CB37-4965-896E-699B80D6BCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC420BD-5E43-4AD0-829E-8BEB7BB1F3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC420BD-5E43-4AD0-829E-8BEB7BB1F3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC420BD-5E43-4AD0-829E-8BEB7BB1F3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC420BD-5E43-4AD0-829E-8BEB7BB1F3D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
